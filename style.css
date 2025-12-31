@@ -1,0 +1,103 @@
+@font-face {
+    font-family: mafinest;
+    src: url('/Fonts/MafinestIta0-x3rpK.otf');
+}
+
+*{
+    margin: 0;
+}
+
+#logodiv{
+    background: #0f0f0f;
+    height: 80px;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    position: fixed;
+    width: 95%;
+    justify-self: center;
+}
+
+#brandname{
+    font-family: mafinest;
+    color: rgb(230, 230, 230);
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    align-self: center;
+}
+
+#threelines{
+    position: absolute;
+    width: 40px;
+    align-self: center;
+    margin-left: 20px;
+}
+
+#infologo{
+    position: absolute;
+    width: 40px;
+    right: 30px;
+    align-self: center;
+}
+
+#marketingimage{
+    width: 100%;
+    justify-self: center;
+    margin-top: 100px;
+}
+
+.card{
+    height: 130px;
+    width: 95%;
+    border-radius: 40px;
+    justify-self: center;
+    background: #0f0f0f;
+    margin-bottom: 25px;
+    display: flex;
+}
+
+.cardtext{
+    color: #ffffff;
+    font-family: mafinest;
+    font-size: 28px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+#whatsapplogo{
+    height: 90px;
+    opacity: 0.5;
+    padding: 10px;
+    align-self: center;
+    position: absolute;
+}
+
+#button{
+    height: 80px;
+    width: 160px;
+    margin-top: 25px;
+    right: 7%;
+    align-self: center;
+    position: absolute;
+    border-radius: 30px;
+    border: 0;
+    font-family: mafinest;
+    font-size: 25px;
+}
+
+.green{
+    background: #84f46b;
+    color: #0a200a;
+}
+
+.mailcolor{
+    background-image: url('images/1028131.jpg');
+    background-size: cover;
+}
+
+.paper{
+    background-image: url('images/crumpled-paper-texture-5.jpg');
+    background-size: cover;
+}
