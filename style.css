@@ -60,7 +60,7 @@
 .cardtext{
     color: #ffffff;
     font-family: mafinest;
-    font-size: 28px;
+    font-size: 25px;
     position: absolute;
     margin-top: 40px;
     margin-left: 20px;
@@ -100,4 +100,5 @@
 .paper{
     background-image: url('images/crumpled-paper-texture-5.jpg');
     background-size: cover;
+
 }
